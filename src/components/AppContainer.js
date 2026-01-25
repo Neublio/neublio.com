@@ -1,8 +1,8 @@
 /* eslint-disable no-alert */
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import { document } from 'browser-monads';
 import StepperContainer from './StepperContainer';
 import FormContainer from './Forms/FormContainer';

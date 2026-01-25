@@ -15,37 +15,35 @@ import Setup from '../svg/Setup';
 import MetaImg from '../assets/meta_image.png';
 import Seo from '../components/Seo';
 
-export default () => (
+const IndexPage = () => (
   <>
     <Seo
-      href="https://oneplaybook.app"
-      title="Profit with Wikis | Oneplaybook"
+      href="https://neublio.com"
+      title="Neublio - knowledge work evolved"
       metaImg={MetaImg}
-      description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
+      description="Neublio: your integrated knowledge work assistant"
     />
     <Layout>
       <section className="pt-10">
-        <div className="container mx-auto px-8 lg:flex">
-          <div className="text-center lg:text-left lg:w-1/2">
+        <div className="container mx-auto px-8">
+          <div className="text-center">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Capture, organize and share knowledge better together with one tool
+              Neublio: knowledge work evolved
             </h1>
-            <p className="font-body text-md md:text-lg mt-4">
+            {/* <p className="font-body text-md md:text-lg mt-4">
               It&apos;s easy to lose track of knowledge and direction amid so many sites, apps,
               chats, emails and collaborators.
-            </p>
+            </p> */}
             <p className="font-body text-md md:text-lg mt-4">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you build
-              internal wiki spaces for sharing knowledge, docs, notes and more. Use offline or
-              with any cloud service of your choice. Perfect for individuals and teams who want 
-              to have a single clean and organized source of truth to refer to. Coming very soon!
+              <span className="primary-text-bg font-bold">Neublio</span> is an integrated knowledge
+              work assistant.
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
-                Join wait list
+                Get started
               </CtaButton>
             </div>
-            <p className="mt-4">
+            {/* <p className="mt-4">
               Powered by{' '}
               <a
                 className="underline"
@@ -56,11 +54,11 @@ export default () => (
                 TiddlyWiki
               </a>
               .
-            </p>
+            </p> */}
           </div>
-          <div className="hidden lg:block w-1/2">
+          {/* <div className="hidden lg:block w-1/2">
             <HeroImage />
-          </div>
+          </div> */}
         </div>
       </section>
       <section id="benefits" className="pt-20 lg:pt-32">
@@ -202,3 +200,5 @@ export default () => (
     </Layout>
   </>
 );
+
+export default IndexPage;
