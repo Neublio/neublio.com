@@ -1,12 +1,21 @@
 module.exports = {
+  siteMetadata: {
+    title: `OnePlaybook`,
+    description: `Oneplaybook: manage your knowledge and work better with TiddlyWiki.`,
+    siteUrl: `https://neublio.com`
+  },
   plugins: [
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
-      resolve: `gatsby-theme-codebushi`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        tailwindConfig: `tailwind.config.js`
-      }
+        name: `assets`,
+        path: `${__dirname}/src/assets`,
+      },
     },
-    `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-plugin-anchor-links`,
       options: {

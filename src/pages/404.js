@@ -4,13 +4,13 @@ import NotFoundIllustration from '../svg/NotFound';
 import MetaImg from '../assets/meta_image.png';
 import Seo from '../components/Seo';
 
-export default () => (
+const NotFoundPage = () => (
   <>
     <Seo
-      href="https://oneplaybook.app"
-      title="Profit with Wikis | Oneplaybook"
+      href="https://neublio.com"
+      title="Neublio | knowledge work evolved"
       metaImg={MetaImg}
-      description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
+      description="Neublio: your integrated knowledge work assistant"
     />
     <Layout>
       <section className="pt-1">
@@ -27,3 +27,5 @@ export default () => (
     </Layout>
   </>
 );
+
+export default NotFoundPage;

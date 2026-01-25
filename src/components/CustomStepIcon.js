@@ -1,8 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
-import Check from '@material-ui/icons/Check';
-import { withStyles } from '@material-ui/core/styles';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
+import Check from '@mui/icons-material/Check';
+import { withStyles } from '@mui/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 const StepIcon = ({ active, completed, classes }) => {
   const mediaQuery = useMediaQuery('(min-width: 768px)');
