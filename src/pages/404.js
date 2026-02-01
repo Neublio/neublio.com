@@ -1,16 +1,16 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import NotFoundIllustration from '../svg/NotFound';
-import MetaImg from '../assets/meta_image.png';
+import MetaImg from '../assets/workspace.png';
 import Seo from '../components/Seo';
 
 const NotFoundPage = () => (
   <>
     <Seo
       href="https://neublio.com"
-      title="Neublio | knowledge work evolved"
+      title="Neublio - knowledge work evolved"
       metaImg={MetaImg}
-      description="Neublio: your integrated knowledge work assistant"
+      description="Neublio: your integrated knowledge work toolkit."
     />
     <Layout>
       <section className="pt-1">

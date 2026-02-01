@@ -42,20 +42,20 @@ const Header = () => {
       >
         Hosting
       </AnchorLink>
-      <AnchorLink
+      {/* <AnchorLink
         onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
         to="/#setup"
       >
         Setup
-      </AnchorLink>
-      <AnchorLink
+      </AnchorLink> */}
+      {/* <AnchorLink
         onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
         to="/#opensource"
       >
         Open source
-      </AnchorLink>
+      </AnchorLink> */}
       <AnchorLink
         onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
@@ -87,7 +87,7 @@ const Header = () => {
         <div className="hidden lg:flex mt-0">{menuItems}</div>
         <div className="hidden lg:block">
           <CtaButton className="primary-text-bg font-body font-bold text-sm">
-            Join wait list
+            Get started
           </CtaButton>
         </div>
       </div>

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `OnePlaybook`,
-    description: `Oneplaybook: manage your knowledge and work better with TiddlyWiki.`,
+    title: `Neublio - knowledge work evolved`,
+    description: `Neublio: your integrated knowledge work toolkit.`,
     siteUrl: `https://neublio.com`
   },
   plugins: [
@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `OnePlaybook`,
-        description: `Oneplaybook: manage your knowledge and work better with TiddlyWiki.`,
+        name: `Neublio`,
+        description: `Neublio: your integrated knowledge work toolkit.`,
         lang: `en`,
         start_url: `/`,
         background_color: `#fff5f7`,

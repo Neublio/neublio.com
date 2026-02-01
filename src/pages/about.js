@@ -1,22 +1,22 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import CtaButton from '../components/CtaButton';
-import MetaImg from '../assets/meta_image.png';
+import MetaImg from '../assets/workspace.png';
 import Seo from '../components/Seo';
 
 const AboutPage = () => (
   <>
     <Seo
       href="https://neublio.com"
-      title="Neublio | knowledge work evolved"
+      title="Neublio - knowledge work evolved"
       metaImg={MetaImg}
-      description="Neublio: your integrated knowledge work assistant"
+      description="Neublio: your integrated knowledge work toolkit."
     />
     <Layout>
       <section className="pt-8">
         <div className="container mx-auto text-center">
           <h1 className="text-3xl lg:text-5xl font-header">
-            About Oneplaybook{' '}
+            About Neublio{' '}
             <span role="img" aria-label="playbook emoji">
               📔
             </span>
@@ -24,13 +24,13 @@ const AboutPage = () => (
         </div>
         <div className="container mx-auto px-8 mt-4 text-center lg:text-justify">
           <p className="my-2">
-            <span className="primary-text-bg font-bold">Oneplaybook</span> is a web app that allows
+            <span className="primary-text-bg font-bold">Neublio</span> is a web app that allows
             you to quickly get started building federated internal wikis (aka connected &apos;second
             brains&apos;) that allow you to more easily co-create and share useful knowledge and
             related tools with others around the world with TiddlyWiki, a popular open source
             non-linear note taking app that is used by many knowledge workers today. Unlike most
             commercial wiki software services and other similar software-as-a-service solutions,{' '}
-            <span className="primary-text-bg font-bold">Oneplaybook</span> offers you ways to keep
+            <span className="primary-text-bg font-bold">Neublio</span> offers you ways to keep
             data on servers/cloud services you trust instead of forcing you into our own backend
             solution. In fact, we don&apos;t have any servers to begin with for you to worry about!
           </p>
@@ -41,7 +41,7 @@ const AboutPage = () => (
             and release your own copy the app under MPL-2.0 licensing!
           </p>
           <p className="my-2">
-            We at <span className="primary-text-bg font-bold">Oneplaybook</span> are also constantly
+            We at <span className="primary-text-bg font-bold">Neublio</span> are also constantly
             creating new ways to organize and collaborate on knowledge between individuals and
             teams. We welcome you to use our projects for free, and we also welcome you to the wider
             TiddlyWiki community.
