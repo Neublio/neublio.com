@@ -6,19 +6,19 @@ const Introduction = () => {
   return (
     <>
       <Typography variant="h5" gutterBottom>
-        Hello there!
+        Hey there!
       </Typography>
       <AbrahamAvatarCard>
-        Nice to meet you. I&apos;m Abraham Samma, the developer of Oneplaybook. Feel free to reach
+        How&apos;s it going? I&apos;m Abraham Samma, the developer of Neublio. Feel free to reach
         out to me if you have any questions. Great to have you!
       </AbrahamAvatarCard>
       <Typography variant="inherit">
-        Welcome to Oneplaybook. Thanks for taking the time to poke around here! Oneplaybook is still
-        at a stage where it is being perfected through a dedicated community of testers.
+        Thanks for taking the time to poke around here! Neublio is at the early stages of
+        its soft launch and we are slowly rolling it out to more users.
         <br />
         <br />
-        Currently, the waiting list is not very long, so you probably won&apos;t have to wait very
-        long to try it out. We cannot wait to have you try out our take on the TiddlyWiki workflow!
+        If you want to be one of the first to try it out, join the waiting list by clicking through and filling out the form.
+        We are super excited to have you try it out and would love to hear your feedback!
       </Typography>
     </>
   );

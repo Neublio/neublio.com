@@ -2,6 +2,7 @@
 import React from 'react';
 import Paper from '@mui/material/Paper';
 import Grid2 from '@mui/material/Grid2';
+import Grid from '@mui/material/Grid';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { document } from 'browser-monads';
 import StepperContainer from './StepperContainer';
@@ -131,8 +132,8 @@ const AppContainer = ({ className, controls }) => {
   };
   return (
     <Paper className={className} elevation={5}>
-      <Grid2 container spacing={0}>
-        <Grid2 item xs={12} sm={6}>
+      <Grid container spacing={0}>
+        <Grid item xs={12} sm={6}>
           {mediaQuery ? (
             <div
               className="rounded-l-lg flex justify-center bg-pink-100"
@@ -146,8 +147,8 @@ const AppContainer = ({ className, controls }) => {
               <StepperContainer activeIndex={activeIndex} steps={steps} />
             </div>
           )}
-        </Grid2>
-        <Grid2 item xs={12} sm={6}>
+        </Grid>
+        <Grid item xs={12} sm={6}>
           <div className="flex-col justify-center items-center pl-6 pr-6" elevation={2}>
             <FormErrorContext.Provider value={formError}>
               <FormContainer activeIndex={activeIndex} steps={steps} />
@@ -187,8 +188,8 @@ const AppContainer = ({ className, controls }) => {
               )}
             </div>
           </div>
-        </Grid2>
-      </Grid2>
+        </Grid>
+      </Grid>
     </Paper>
   );
 };

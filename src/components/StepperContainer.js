@@ -24,10 +24,11 @@ const stepperStyles = {
 
 const StepperContainer = ({ classes, steps, activeIndex }) => {
   const mediaQuery = useMediaQuery('(min-width: 768px)');
+  const { rootVertical = '', rootHorizontal = '' } = classes || {};
   return (
     <>
       <Stepper
-        className={mediaQuery ? classes.rootVertical : classes.rootHorizontal}
+        className={mediaQuery ? rootVertical : rootHorizontal}
         activeStep={activeIndex}
         orientation={mediaQuery ? 'vertical' : 'horizontal'}
         alternativeLabel={!mediaQuery}
@@ -54,13 +55,15 @@ const StepperContainer = ({ classes, steps, activeIndex }) => {
 };
 
 StepperContainer.defaultProps = {
-  activeIndex: 0,
-  classes: { rootVertical: {}, rootHorizontal: {} }
+  activeIndex: 0
 };
 
 StepperContainer.propTypes = {
   activeIndex: PropTypes.number,
-  classes: PropTypes.object,
+  classes: PropTypes.shape({
+    rootVertical: PropTypes.string,
+    rootHorizontal: PropTypes.string
+  }),
   steps: PropTypes.array.isRequired
 };
 

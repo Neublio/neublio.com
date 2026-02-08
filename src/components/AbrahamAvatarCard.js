@@ -4,7 +4,8 @@ import Typography from '@mui/material/Typography';
 import { makeStyles } from '@mui/styles';
 import abraham from '../assets/abraham.jpg';
 import LinkedIn from '../svg/brands/LinkedIn';
-import Twitter from '../svg/brands/Twitter';
+import BlueSky from '../svg/brands/BlueSky';
+import Mastodon from '../svg/brands/Mastodon';
 import Github from '../svg/brands/Github';
 import Mail from '../svg/brands/Mail';
 
@@ -24,9 +25,10 @@ const AbrahamAvatarCard = ({ children }) => {
         <Typography variant="caption">{children}</Typography>
         <div className="flex flex-row py-1">
           <LinkedIn className="mr-6" linkTo="https://www.linkedin.com/in/abraham-samma-094047153" />
-          <Twitter className="mr-6" linkTo="https://twitter.com/ABSamma" />
+          <BlueSky className="mr-6" linkTo="https://bsky.app/profile/abesamma.bsky.social" />
+          <Mastodon className="mr-6" linkTo="https://toolsforthought.social/@abesamma" />
           <Github className="mr-6" linkTo="https://github.com/abesamma" />
-          <Mail className="mr-6" linkTo="mailto:oneplaybooklab@gmail.com" />
+          <Mail className="mr-6" linkTo="mailto:abraham.samma@neublio.com" />
         </div>
       </div>
     </div>

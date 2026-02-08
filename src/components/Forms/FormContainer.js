@@ -15,13 +15,14 @@ const styles = {
 };
 
 const FormContainer = ({ classes, steps, activeIndex }) => {
+  const { root = '' } = classes || {};
   return (
     <>
       {steps.map((step, index) => (
         <div
           key={step[0]}
           style={activeIndex === index ? { display: 'block' } : { display: 'none' }}
-          className={classes.root}
+          className={root}
         >
           {step[1]}
         </div>
@@ -36,7 +37,9 @@ FormContainer.defaultProps = {
 };
 
 FormContainer.propTypes = {
-  classes: PropTypes.object,
+  classes: PropTypes.shape({
+    root: PropTypes.object
+  }),
   activeIndex: PropTypes.number,
   steps: PropTypes.array.isRequired
 };
