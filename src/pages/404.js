@@ -10,7 +10,7 @@ const NotFoundPage = () => (
       href="https://neublio.com"
       title="Neublio - knowledge work evolved"
       metaImg={MetaImg}
-      description="Neublio: your integrated knowledge work toolkit."
+      description="Neublio: your integrated knowledge work toolsuite."
     />
     <Layout>
       <section className="pt-1">

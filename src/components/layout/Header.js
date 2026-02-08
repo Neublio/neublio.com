@@ -35,13 +35,13 @@ const Header = () => {
       >
         Features
       </AnchorLink>
-      <AnchorLink
+      {/* <AnchorLink
         onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
         to="/#cloud"
       >
         Hosting
-      </AnchorLink>
+      </AnchorLink> */}
       {/* <AnchorLink
         onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"

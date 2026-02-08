@@ -9,7 +9,7 @@ const Footer = () => {
             <h2 className="text-lg font-semibold">About</h2>
             <p className="mt-5">
               We are helping people work better and achieve more with Neublio,
-              an integrated knowledge work toolkit.
+              an integrated knowledge work toolsuite.
             </p>
             <p className="mt-2">
               Made with{' '}

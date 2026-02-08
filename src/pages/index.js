@@ -4,10 +4,11 @@ import Card from '../components/Card';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import HeroImage from '../svg/HeroImage';
-import CloudVendors from '../svg/CloudVendors';
+// import CloudVendors from '../svg/CloudVendors';
 import DocumentIllustration from '../svg/DocumentIllustration';
 import NotebookIllustration from '../svg/NotebookIllustration';
 import AppsIllustration from '../svg/AppsIllustration';
+import SyncIllustration from '../svg/SyncIllustration';
 import MetaImg from '../assets/workspace.png';
 import Seo from '../components/Seo';
 
@@ -17,7 +18,7 @@ const IndexPage = () => (
       href="https://neublio.com"
       title="Neublio - knowledge work evolved"
       metaImg={MetaImg}
-      description="Neublio: your integrated knowledge work toolkit."
+      description="Neublio: your integrated knowledge work toolsuite."
     />
     <Layout>
       <section className="pt-10">
@@ -26,31 +27,19 @@ const IndexPage = () => (
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
               Neublio: knowledge work evolved
             </h1>
-            {/* <p className="font-body text-md md:text-lg mt-4">
-              It&apos;s easy to lose track of knowledge and direction amid so many sites, apps,
-              chats, emails and collaborators.
-            </p> */}
             <p className="font-body text-md md:text-lg mt-4">
-              <span className="primary-text-bg font-bold">Neublio</span> is an evergrowing, integrated knowledge work toolkit
+              Whether you're a student or a professional working on a personal passion project, job hunting, managing a team or running a business,
+              you need a modern software suite that can up your game, free up time, and keep you motivated.
+            </p>
+            <p className="font-body text-md md:text-lg mt-4">
+              <span className="primary-text-bg font-bold">Neublio</span> is an evergrowing, integrated knowledge work toolsuite
               that helps supercharge your knowledge work your way.
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
-                Supercharge now
+                Supercharge your work
               </CtaButton>
             </div>
-            {/* <p className="mt-4">
-              Powered by{' '}
-              <a
-                className="underline"
-                href="https://tiddlywiki.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                TiddlyWiki
-              </a>
-              .
-            </p> */}
           </div>
           <div className="hidden lg:block w-1/2">
             <HeroImage />
@@ -75,7 +64,7 @@ const IndexPage = () => (
                 <p className="font-semibold text-xl">Get your money's worth</p>
                 <p className="mt-4">
                   Replace many tools and subscriptions with just Neublio, a consolidated,
-                  powerful, evergrowing knowledge work toolkit.
+                  powerful, evergrowing knowledge work toolsuite.
                 </p>
               </Card>
             </div>
@@ -83,7 +72,7 @@ const IndexPage = () => (
               <Card className="mb-8" icon={<i className="gg-smile-mouth-open" />}>
                 <p className="font-semibold text-xl">Do more, no stress</p>
                 <p className="mt-4">
-                  No matter the scale of your work needs, Neublio's flexible, extensible design adapts to you, offering
+                  No matter the scale of your work needs, Neublio's flexible, extensible toolset adapts to you, offering
                   more control, options and wins for less.
                 </p>
               </Card>
@@ -143,23 +132,24 @@ const IndexPage = () => (
         }
         secondarySlot={<AppsIllustration />}
       />
-      {/* <SplitSection
+      <SplitSection
         primarySlot={
           <div className="lg:pr-32 xl:pr-48">
-            <h3 className="text-3xl font-header leading-tight">Automate repetitive tasks</h3>
+            <h3 className="text-3xl font-header leading-tight">Flexible hosting API</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Write automations for repetitive workflows. Less busywork, more impact.
+              Host your data wherever you want, whether on your local machine, a private server, or get more with our premium cloud service.
+              Neublio's flexible hosting API gives you the freedom to choose the hosting solution that best fits your needs and preferences.
             </p>
           </div>
         }
-        secondarySlot={<BuildIllustration />}
-      /> */}
-      <section id="cloud" className="py-20 lg:pt-32">
+        secondarySlot={<SyncIllustration />}
+      />
+      {/* <section id="cloud" className="py-20 lg:pt-32">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl lg:text-5xl font-header pb-5">Host your data on any cloud service</h2>
           <CloudVendors />
         </div>
-      </section>
+      </section> */}
       {/* <section id="setup" className="py-20 lg:pt-32">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl lg:text-5xl font-header pb-5">Quick setup in three clicks</h2>
@@ -181,7 +171,7 @@ const IndexPage = () => (
         </div>
       </section> */}
       <section className="bg-purple-100 container mx-auto my-20 py-24 rounded-lg text-center">
-        <h3 className="text-5xl font-header">Ready to evolve your knowledge work?</h3>
+        <h3 className="text-5xl font-header">Ready to upgrade your knowledge work?</h3>
         <p className="mt-8 text-xl font-light">
           Join teams and professionals using Neublio to work smarter and faster.
         </p>

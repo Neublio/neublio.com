@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Neublio - knowledge work evolved`,
-    description: `Neublio: your integrated knowledge work toolkit.`,
+    description: `Neublio: your integrated knowledge work toolsuite.`,
     siteUrl: `https://neublio.com`
   },
   plugins: [
@@ -26,7 +26,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Neublio`,
-        description: `Neublio: your integrated knowledge work toolkit.`,
+        description: `Neublio: your integrated knowledge work toolsuite.`,
         lang: `en`,
         start_url: `/`,
         background_color: `#fff5f7`,
