@@ -14,7 +14,7 @@ import FormErrorContext from '../FormErrorContext';
 const useStyles = makeStyles(() => ({
   root: {
     '& .MuiTypography-root': {
-      lineHeight: '40px'
+      lineHeight: '55px'
     },
     '& .MuiTextField-root': {
       top: '9.5px'
@@ -52,8 +52,8 @@ const TesterRegistration = () => {
         What about you?
       </Typography>
       <Typography variant="body2">
-        Please describe yourself so that the testing experience can be tailored to your
-        particular background and project needs.
+        Please describe yourself so that your Neublio experience can be tailored to your
+        particular background and needs.
       </Typography>
       <form
         id="form-1"

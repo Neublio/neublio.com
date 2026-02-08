@@ -22,6 +22,7 @@ export default {
   problem: [
     '',
     'job hunting',
+    'locum management',
     'document and credentials management',
     'resume writing and interview prep',
     'knowledge management',
