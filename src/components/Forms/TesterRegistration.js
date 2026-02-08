@@ -143,8 +143,8 @@ const TesterRegistration = () => {
               required
               onChange={handleChange}
             />{' '}
-            software services to manage daily operations. I am interested in trying out Oneplaybook
-            to solve our{' '}
+            software services to manage daily operations. I am interested in trying out Neublio
+            to solve my/our{' '}
             <TextField
               id="problem"
               name="problem"
