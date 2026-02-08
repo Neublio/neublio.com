@@ -49,7 +49,7 @@ const IndexPage = () => (
       <section id="benefits" className="pt-20 lg:pt-32">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl lg:text-5xl font-header">What do you gain?</h2>
-          <div className="flex flex-col lg:flex-row lg:-mx-3 mt-12">
+          <div className="flex flex-col lg:flex-row lg:mx-3 mt-12">
             <div className="flex-1 px-3">
               <Card className="mb-8" icon={<i className="gg-time" />}>
                 <p className="font-semibold text-xl">Get your time back</p>
