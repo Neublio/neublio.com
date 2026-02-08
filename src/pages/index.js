@@ -28,7 +28,7 @@ const IndexPage = () => (
               Neublio: knowledge work evolved
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
-              Whether you're a student or a professional working on a personal passion project, job hunting, managing a team or running a business,
+              Whether you&apos;re a student or a professional working on a personal passion project, job hunting, managing a team or running a business,
               you need a modern software suite that can up your game, free up time, and keep you motivated.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
