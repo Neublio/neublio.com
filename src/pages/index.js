@@ -37,12 +37,12 @@ const IndexPage = () => (
               you need a modern software suite that can up your game, free up time, and keep you motivated.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
-              <span className="primary-text-bg font-bold">Neublio</span> is an evergrowing, integrated knowledge work toolsuite
-              that helps supercharge your knowledge work your way.
+              <span className="primary-text-bg font-bold">Neublio</span> is an integrated knowledge work toolsuite
+              that helps you <span className="font-bold">find</span>, <span className="font-bold">execute</span> and <span className="font-bold">manage</span> knowledge work <span className="font-bold emphasis">your way</span>.
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
-                Supercharge your work
+                Get started
               </CtaButton>
             </div>
           </div>

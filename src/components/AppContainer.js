@@ -148,7 +148,7 @@ const AppContainer = ({ className, controls }) => {
               <StepperContainer activeIndex={activeIndex} steps={steps} />
             </div>
           ) : (
-            <div className="rounded-t-lg flex justify-center bg-pink-100" elevation={2}>
+            <div className="rounded-t-lg flex justify-center bg-pink-100 h-14" elevation={2}>
               <StepperContainer activeIndex={activeIndex} steps={steps} />
             </div>
           )}

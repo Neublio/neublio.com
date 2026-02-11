@@ -23,7 +23,9 @@ const stepperStyles = {
   rootHorizontal: {
     height: 'inherit',
     width: '99%', // 100% obliterates the top rounded corners
-    backgroundColor: 'inherit'
+    backgroundColor: 'inherit',
+    // makes sure the stepper is centered in its container on smaller screens
+    alignItems: 'center'
   }
 };
 
