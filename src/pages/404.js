@@ -1,16 +1,21 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import NotFoundIllustration from '../svg/NotFound';
-import MetaImg from '../assets/meta_image.png';
+import MetaImg from '../assets/workspace.png';
 import Seo from '../components/Seo';
 
 const NotFoundPage = () => (
   <>
     <Seo
       href="https://neublio.com"
-      title="Neublio | knowledge work evolved"
+      title="Neublio - knowledge work evolved"
       metaImg={MetaImg}
-      description="Neublio: your integrated knowledge work assistant"
+      description="Neublio: your integrated knowledge work toolsuite."
     />
     <Layout>
       <section className="pt-1">
