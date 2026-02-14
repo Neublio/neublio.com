@@ -1,3 +1,8 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
 /* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import { withStyles } from '@mui/styles';
@@ -18,16 +23,19 @@ const stepperStyles = {
   rootHorizontal: {
     height: 'inherit',
     width: '99%', // 100% obliterates the top rounded corners
-    backgroundColor: 'inherit'
+    backgroundColor: 'inherit',
+    // makes sure the stepper is centered in its container on smaller screens
+    alignItems: 'center'
   }
 };
 
 const StepperContainer = ({ classes, steps, activeIndex }) => {
   const mediaQuery = useMediaQuery('(min-width: 768px)');
+  const { rootVertical = '', rootHorizontal = '' } = classes || {};
   return (
     <>
       <Stepper
-        className={mediaQuery ? classes.rootVertical : classes.rootHorizontal}
+        className={mediaQuery ? rootVertical : rootHorizontal}
         activeStep={activeIndex}
         orientation={mediaQuery ? 'vertical' : 'horizontal'}
         alternativeLabel={!mediaQuery}
@@ -54,13 +62,15 @@ const StepperContainer = ({ classes, steps, activeIndex }) => {
 };
 
 StepperContainer.defaultProps = {
-  activeIndex: 0,
-  classes: { rootVertical: {}, rootHorizontal: {} }
+  activeIndex: 0
 };
 
 StepperContainer.propTypes = {
   activeIndex: PropTypes.number,
-  classes: PropTypes.object,
+  classes: PropTypes.shape({
+    rootVertical: PropTypes.string,
+    rootHorizontal: PropTypes.string
+  }),
   steps: PropTypes.array.isRequired
 };
 

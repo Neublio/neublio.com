@@ -1,3 +1,8 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
 import React from 'react';
 import { makeStyles } from '@mui/styles';
 import Typography from '@mui/material/Typography';
@@ -44,14 +49,14 @@ const ContactForm = () => {
         How would you like to be contacted?
       </Typography>
       <Typography variant="subtitle2" gutterBottom>
-        Your profile will be reviewed shortly. You will be notified via email when Oneplaybook is
+        Thanks for joining our tester community! You will be notified via email when Neublio is
         ready for you to try out. Please enter a valid email address below:
       </Typography>
       <form
         id="form-2"
         className={classes.root}
         method="POST"
-        action="https://script.google.com/macros/s/AKfycbyFMZMjerJwztc2kdvV1MolOoiX_LISC92MHXWYGRhay9ZGqjI/exec"
+        action="https://script.google.com/macros/s/AKfycbyLXGHjsokiwlMFXb6UGTMOL3jdrCIrxIT5xAoj9W04WdAeujxkxe7WyugGdAkvHmmz/exec"
         noValidate
         autoComplete="off"
       >

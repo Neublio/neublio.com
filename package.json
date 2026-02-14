@@ -2,10 +2,10 @@
   "name": "neublio.com",
   "private": true,
   "author": "Abraham Samma",
-  "version": "0.9.3",
+  "version": "0.10.0",
   "license": " MPL-2.0",
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --host 0.0.0.0 --port 8000",
     "build": "gatsby build",
     "clean": "gatsby clean"
   },
