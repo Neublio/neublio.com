@@ -37,13 +37,13 @@ const FormContainer = ({ classes, steps, activeIndex }) => {
 };
 
 FormContainer.defaultProps = {
-  classes: { root: {} },
+  classes: { root: '' },
   activeIndex: 0
 };
 
 FormContainer.propTypes = {
   classes: PropTypes.shape({
-    root: PropTypes.object
+    root: PropTypes.string
   }),
   activeIndex: PropTypes.number,
   steps: PropTypes.array.isRequired

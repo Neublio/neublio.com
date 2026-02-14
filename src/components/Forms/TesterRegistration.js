@@ -59,7 +59,7 @@ const TesterRegistration = () => {
         id="form-1"
         className={classes.root}
         method="POST"
-        action="https://script.google.com/macros/s/AKfycbyFMZMjerJwztc2kdvV1MolOoiX_LISC92MHXWYGRhay9ZGqjI/exec"
+        action="https://script.google.com/macros/s/AKfycbyLXGHjsokiwlMFXb6UGTMOL3jdrCIrxIT5xAoj9W04WdAeujxkxe7WyugGdAkvHmmz/exec"
         noValidate
         autoComplete="off"
       >

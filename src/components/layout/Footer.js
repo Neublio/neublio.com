@@ -25,6 +25,8 @@ const Footer = () => {
               <a target="_blank" rel="noopener noreferrer" href="https://github.com/abesamma">
                 Abraham Samma
               </a>
+              {' and '}
+              <span>Patricia Kessy</span>
             </p>
           </div>
           <div className="flex-1 px-3">

@@ -39,7 +39,7 @@ const AppContainer = ({ className, controls }) => {
       alert(
         `Sorry about that. Something went wrong. Check your network connection,
         or try temporarily disabling any browser extensions that could interfere with form submission,
-        then try again. If the problem persists, please contact us: oneplaybooklab@gmail.com.`
+        then try again. If the problem persists, please contact us: abraham.samma@neublio.com.`
       );
     });
   };

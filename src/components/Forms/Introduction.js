@@ -5,7 +5,7 @@
  */
 import React from 'react';
 import Typography from '@mui/material/Typography';
-import AbrahamAvatarCard from '../AbrahamAvatarCard';
+import CompositeAvatar from '../CompositeAvatar';
 
 const Introduction = () => {
   return (
@@ -13,10 +13,10 @@ const Introduction = () => {
       <Typography variant="h5" gutterBottom>
         Hey there!
       </Typography>
-      <AbrahamAvatarCard>
-        How&apos;s it going? I&apos;m Abraham Samma, the developer of Neublio. Feel free to reach
-        out to me if you have any questions. Great to have you!
-      </AbrahamAvatarCard>
+      <CompositeAvatar showLinks={true}>
+        How&apos;s it going? We&apos;re Abraham Samma and Patricia Kessy, medical doctors and the developers of Neublio. Feel free to reach
+        out to us if you have any questions. Great to have you!
+      </CompositeAvatar>
       <Typography variant="inherit">
         Thanks for taking the time to poke around here! Neublio is at the early stages of
         its soft launch and we are slowly rolling it out to more users.

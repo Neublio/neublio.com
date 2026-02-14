@@ -5,7 +5,7 @@
  */
 import React from 'react';
 import Typography from '@mui/material/Typography';
-import AbrahamAvatarCard from '../AbrahamAvatarCard';
+import CompositeAvatar from '../CompositeAvatar';
 
 const ThankYou = () => {
   return (
@@ -14,7 +14,7 @@ const ThankYou = () => {
         Thanks very much!
       </Typography>
       <Typography variant="inherit">
-        Thank you so much for wanting to try out Neublio! I will get back to you as soon as
+        Thank you so much for wanting to try out Neublio! We will get back to you as soon as
         possible so you can begin trying this app out.
         <br />
         <br />
@@ -31,9 +31,9 @@ const ThankYou = () => {
           Tweet it out
         </a>
       </div>
-      <AbrahamAvatarCard>
-        Thank you again for joining this project of mine! Please reach out if you have any questions. I am all ears!
-      </AbrahamAvatarCard>
+      <CompositeAvatar showLinks={true}>
+        Thank you again for joining this project of ours! Please reach out if you have any questions. We are all ears!
+      </CompositeAvatar>
     </>
   );
 };
