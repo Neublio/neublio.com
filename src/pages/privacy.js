@@ -14,7 +14,7 @@ const PrivacyPage = () => (
       href="https://neublio.com"
       title="Neublio - knowledge work evolved"
       metaImg={MetaImg}
-      description="Neublio: your integrated knowledge work toolsuite."
+      description="Neublio: Find, manage and execute knowledge work your way with our integrated knowledge work toolsuite."
     />
     <Layout>
       <section className="pt-8">
