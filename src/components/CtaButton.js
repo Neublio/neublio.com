@@ -40,7 +40,7 @@ const CtaButton = props => {
           </div>
           <div className="flex justify-center mt-10 mb-8">
             <CustomThemeProvider>
-              <AppContainer controls={handleClose} className="w-8/12 md: w-full h-auto" />
+              <AppContainer controls={handleClose} className="w-full md:w-11/12 h-auto" />
             </CustomThemeProvider>
           </div>
         </div>
