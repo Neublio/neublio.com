@@ -283,7 +283,13 @@ p {
 .emphasis {
   text-decoration: underline #e22b6b double 2.5px;
   text-decoration-skip-ink: none;
-  text-underline-offset: 8px;
+  text-underline-offset: 4px;
+}
+
+@media (min-width: 1024px) {
+  .emphasis {
+    text-underline-offset: 6px;
+  }
 }
 .icon-button {
   box-shadow: 0 5px 10px 0;
