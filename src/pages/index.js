@@ -23,7 +23,7 @@ const IndexPage = () => (
       href="https://neublio.com"
       title="Neublio - knowledge work evolved"
       metaImg={MetaImg}
-      description="Neublio: your integrated knowledge work toolsuite."
+      description="Neublio: Find, manage and execute knowledge work your way with our integrated knowledge work toolsuite."
     />
     <Layout>
       <section className="pt-10">
@@ -33,12 +33,15 @@ const IndexPage = () => (
               Neublio: knowledge work evolved
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
-              Whether you&apos;re a student or a professional working on a personal passion project, job hunting, managing a team or running a business,
-              you need a modern software suite that can up your game, free up time, and keep you motivated.
+              <span className="font-bold">Find</span>, <span className="font-bold">execute</span> and {' '}
+              <span className="font-bold">manage</span> knowledge work <span className="font-bold emphasis">your way</span>{' '}
+              with <span className="primary-text-bg font-bold">Neublio</span>, an integrated knowledge work toolsuite.
             </p>
-            <p className="font-body text-md md:text-lg mt-4">
-              <span className="primary-text-bg font-bold">Neublio</span> is an integrated knowledge work toolsuite
-              that helps you <span className="font-bold">find</span>, <span className="font-bold">execute</span> and <span className="font-bold">manage</span> knowledge work <span className="font-bold emphasis">your way</span>.
+            <p className="font-body text-sm md:text-md mt-4">
+              Whether you&apos;re a student, a professional working on a passion project,
+              job hunting, managing a team or running a business,{' '}
+              <span className="primary-text-bg font-bold">Neublio</span> is the modern productivity suite that can up your game,
+              free up time, and keep you motivated.
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
@@ -46,7 +49,7 @@ const IndexPage = () => (
               </CtaButton>
             </div>
           </div>
-          <div className="hidden lg:block w-1/2">
+          <div className="hidden lg:block w-3/4">
             <HeroImage />
           </div>
         </div>

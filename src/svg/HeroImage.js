@@ -4,7 +4,7 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 import React from 'react';
-import illustation from '../assets/workspace.svg';
+import illustation from '../assets/hero_image.png';
 
 const HeroImage = () => (
   <>
